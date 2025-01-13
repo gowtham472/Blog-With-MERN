@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+    /* General Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+
+    #root {
+      max-width: 1200px;
+      width: 98%;
+      margin: auto;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #007bff;
+      color: #fff;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin: auto;
+      margin-bottom: 10px;
+      border-radius: 9px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ffe100;
+    }
+
+    /* Page Titles */
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #007bff;
+    }
+
+    /* Articles */
+    .article-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .article-list a {
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s ease;
+    }
+
+    .article-list a:hover {
+      color: #007bff;
+    }
+
+    .article-list h3 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    .article-list p {
+      margin: 0.5rem 0;
+      color: #666;
+    }
+
+    /* Article Page */
+    .article-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #fff;
+      padding: 2rem;
+      margin: 1.5rem auto;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .article-page:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+    
+    .article-page h1 {
+      margin-top: 0;
+      font-size: 2.5rem;
+      color: #007bff;
+      text-align: center;
+    }
+    
+    .article-page p {
+      line-height: 1.8;
+      color: #444;
+      font-size: 1.1rem;
+      text-align: justify;
+    }
+    
+    .article-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    
+    .article-list a {
+      text-decoration: none;
+      color: #333;
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .article-list a:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      color: #007bff;
+    }
+    
+    .article-list h3 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: #007bff;
+    }
+    
+    .article-list p {
+      margin: 0.5rem 0;
+      color: #555;
+      line-height: 1.6;
+    }
+    
+
+    /* 404 Page */
+    .nf404 {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .nf404 h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #ff4d4f;
+    }
+
+    .nf404 p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    /* About Page Styles */
+    .about-page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      line-height: 1.8;
+      color: #333;
+    }
+
+    .about-page h1 {
+      margin-bottom: 1rem;
+      color: #007bff;
+      text-align: left;
+    }
+
+    .about-page h2 {
+      font-size: 2rem;
+      margin-top: 1.5rem;
+      color: #333;
+    }
+
+    .about-page ul {
+      list-style: disc;
+      margin-left: 0.2rem;
+      color: #444;
+    }
+
+    .about-page ul li {
+      margin-bottom: 0.8rem;
+    }
+
+    .about-page p {
+      margin: 1rem 0;
+      color: #555;
+      font-size: 1.1rem;
+    }
+
+    .about-page a {
+      color: #007bff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .about-page a:hover {
+      color: #0056b3;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      
+      nav ul li {
+        margin-bottom: 0.5rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .about-page h1 {
+        font-size: 2rem;
+      }
+
+      .about-page p {
+        font-size: 1rem;
+      }
+    }
