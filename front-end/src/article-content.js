@@ -26,33 +26,33 @@ const articles = [
             `As you gain more experience with MongoDB, you can dive into advanced topics like data modeling, replication, sharding, and data consistency. MongoDB is highly scalable, which makes it suitable for applications that need to handle large amounts of data and traffic. To further enhance your MongoDB knowledge, check out online tutorials, courses, and the official MongoDB documentation, which provides in-depth explanations of all the features MongoDB has to offer.`,
         ]
     },
-    {
-        name: 'learn-docker',
-        title: 'Getting Started with Docker',
-        content: [
-            `Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all parts it needs, such as libraries and dependencies, and ship it all out as one package. In this article, we will explore the basics of Docker and how to get started with it. First, install Docker on your machine and learn the basic Docker commands to create, manage, and run containers.`,
-            `Once you’ve installed Docker, try creating your first container. Start by building a Dockerfile, which defines the environment for your application. From there, you can build a Docker image and then run a container based on that image. Docker also supports Docker Compose, which allows you to define and manage multi-container applications. This is especially useful for applications that involve multiple services like databases and web servers.`,
-            `Docker can be a game-changer when it comes to development workflows. It allows you to create a consistent environment across all stages of development, testing, and deployment. As you become more familiar with Docker, you can explore advanced topics like Docker networking, volumes for persistent storage, and Docker Swarm for orchestrating multiple containers in production environments.`,
-        ]
-    },
-    {
-        name: 'learn-python',
-        title: 'A Beginner’s Guide to Python Programming',
-        content: [
-            `Python is one of the most beginner-friendly programming languages out there, and it’s widely used for web development, data science, artificial intelligence, and more. If you’re new to programming, Python is an excellent choice. In this article, we’ll cover the basics of Python, including variables, data types, loops, conditionals, functions, and modules. We’ll also explore some of the best resources for learning Python and how to set up your development environment.`,
-            `Once you’ve gotten comfortable with the basics, you can start building simple projects to practice your Python skills. A good first project might be a calculator or a to-do list app. From there, you can dive into more advanced topics like object-oriented programming (OOP), file handling, and interacting with APIs. Python’s rich ecosystem of libraries and frameworks allows you to create powerful applications quickly.`,
-            `Python is also widely used in data science, with libraries like NumPy, Pandas, and Matplotlib. If you’re interested in data analysis or machine learning, Python is a great choice. The Python community is vast and supportive, so you’ll always find plenty of tutorials, forums, and open-source libraries to help you along the way.`,
-        ]
-    },
-    {
-        name: 'learn-graphql',
-        title: 'Understanding GraphQL',
-        content: [
-            `GraphQL is a powerful query language for APIs and a runtime for executing those queries with your existing data. It allows clients to request exactly the data they need, making it more efficient than traditional REST APIs. In this article, we’ll break down the core concepts of GraphQL, including queries, mutations, and subscriptions. We’ll also look at how to set up a basic GraphQL server using Node.js.`,
-            `To get started with GraphQL, you first need to understand the concept of a schema. The schema defines the types of data available in your API and how they relate to each other. Once you have a schema, you can start writing queries to retrieve data from your API. In addition to queries, GraphQL also allows you to send mutations to modify data, and subscriptions for real-time data updates.`,
-            `GraphQL has become a popular choice for building modern web applications due to its flexibility and efficiency. You can integrate GraphQL with various backend technologies, including Node.js, Python, and Ruby on Rails. Additionally, there are many client-side libraries like Apollo Client that make it easy to work with GraphQL on the front-end.`,
-        ]
-    }
+    // {
+    //     name: 'learn-docker',
+    //     title: 'Getting Started with Docker',
+    //     content: [
+    //         `Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all parts it needs, such as libraries and dependencies, and ship it all out as one package. In this article, we will explore the basics of Docker and how to get started with it. First, install Docker on your machine and learn the basic Docker commands to create, manage, and run containers.`,
+    //         `Once you’ve installed Docker, try creating your first container. Start by building a Dockerfile, which defines the environment for your application. From there, you can build a Docker image and then run a container based on that image. Docker also supports Docker Compose, which allows you to define and manage multi-container applications. This is especially useful for applications that involve multiple services like databases and web servers.`,
+    //         `Docker can be a game-changer when it comes to development workflows. It allows you to create a consistent environment across all stages of development, testing, and deployment. As you become more familiar with Docker, you can explore advanced topics like Docker networking, volumes for persistent storage, and Docker Swarm for orchestrating multiple containers in production environments.`,
+    //     ]
+    // },
+    // {
+    //     name: 'learn-python',
+    //     title: 'A Beginner’s Guide to Python Programming',
+    //     content: [
+    //         `Python is one of the most beginner-friendly programming languages out there, and it’s widely used for web development, data science, artificial intelligence, and more. If you’re new to programming, Python is an excellent choice. In this article, we’ll cover the basics of Python, including variables, data types, loops, conditionals, functions, and modules. We’ll also explore some of the best resources for learning Python and how to set up your development environment.`,
+    //         `Once you’ve gotten comfortable with the basics, you can start building simple projects to practice your Python skills. A good first project might be a calculator or a to-do list app. From there, you can dive into more advanced topics like object-oriented programming (OOP), file handling, and interacting with APIs. Python’s rich ecosystem of libraries and frameworks allows you to create powerful applications quickly.`,
+    //         `Python is also widely used in data science, with libraries like NumPy, Pandas, and Matplotlib. If you’re interested in data analysis or machine learning, Python is a great choice. The Python community is vast and supportive, so you’ll always find plenty of tutorials, forums, and open-source libraries to help you along the way.`,
+    //     ]
+    // },
+    // {
+    //     name: 'learn-graphql',
+    //     title: 'Understanding GraphQL',
+    //     content: [
+    //         `GraphQL is a powerful query language for APIs and a runtime for executing those queries with your existing data. It allows clients to request exactly the data they need, making it more efficient than traditional REST APIs. In this article, we’ll break down the core concepts of GraphQL, including queries, mutations, and subscriptions. We’ll also look at how to set up a basic GraphQL server using Node.js.`,
+    //         `To get started with GraphQL, you first need to understand the concept of a schema. The schema defines the types of data available in your API and how they relate to each other. Once you have a schema, you can start writing queries to retrieve data from your API. In addition to queries, GraphQL also allows you to send mutations to modify data, and subscriptions for real-time data updates.`,
+    //         `GraphQL has become a popular choice for building modern web applications due to its flexibility and efficiency. You can integrate GraphQL with various backend technologies, including Node.js, Python, and Ruby on Rails. Additionally, there are many client-side libraries like Apollo Client that make it easy to work with GraphQL on the front-end.`,
+    //     ]
+    // }
 ];
 
 export default articles;

@@ -1,7 +1,7 @@
 import './App.css'
 import About from './pages/About'
 import ArticleList from './pages/ArticleListPage'
-import ArticlePage from './pages/ArticlePage'
+import ArticlePage, { loader as articleloader} from './pages/ArticlePage'
 import HomePage from './pages/HomePage'
 import {
   createBrowserRouter,
@@ -31,9 +31,10 @@ const routes = [{
     },
     { 
       path: "/articles/:name",
-      element: <ArticlePage />
-    },
-  ]
+      element: <ArticlePage />,
+      loader:articleloader,
+  }
+]
 }]
 
 const router = createBrowserRouter(routes)
