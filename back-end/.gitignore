@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+credentials.json
+
+dist
+.env
+prod-env.yaml

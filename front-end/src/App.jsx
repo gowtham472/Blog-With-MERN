@@ -10,7 +10,8 @@ import {
 import NavBar from './NavBar'
 import Layout from './Layout.JSX'
 import Nf404 from './pages/Nf404'
-import StarBorder from './components/StarBorder'
+import LoginPage from './pages/LoginPage'
+import CreateAccountPage from './pages/CreateAccountPage'
 
 const routes = [{
   path: "/",
@@ -33,7 +34,15 @@ const routes = [{
       path: "/articles/:name",
       element: <ArticlePage />,
       loader:articleloader,
-  }
+    },
+    {
+      path:"/login",
+      element:<LoginPage />
+    },
+    {
+      path:"/create-account",
+      element:<CreateAccountPage />
+    }
 ]
 }]
 
@@ -42,9 +51,7 @@ function App() {
   return (
     <RouterProvider router={router}>
       <div>
-        <StarBorder >
         <NavBar />
-        </StarBorder>
         {router}
       </div>
     </RouterProvider>
