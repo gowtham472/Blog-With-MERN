@@ -6,7 +6,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBlSHkDJBs1QWZ5aPPccvJeYygC04frFWg",
+  apiKey: "{API_KEY}",
   authDomain: "blog-4e74b.firebaseapp.com",
   projectId: "blog-4e74b",
   storageBucket: "blog-4e74b.firebasestorage.app",
